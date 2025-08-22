@@ -7,7 +7,7 @@ import { FavoritesProvider } from "./context/FavoritesContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Recipe-App-React">
       <FavoritesProvider>
         <App />
       </FavoritesProvider>
